@@ -86,7 +86,31 @@ const music_list = [
         name : 'Impilo Inzima',
         artist : 'Major Keys ft Titom & Yuppe',
         music : 'music/Impilo Inzima(feat. TitoM & Yuppe).mp3'
-    }
+    },
+    {
+        img : 'images/Lady.jpg',
+        name : 'Die with a smile',
+        artist  : 'Bruno Mars ft Lady Gaga',    
+        music : 'music/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3'
+    },
+    {
+        img : 'images/Diez.jpg',
+        name : 'Zangalewa',
+        artist : 'Diez Dola',
+        music : 'music/Diez Dola - Zangalewa (Official Music Video ).mp3'
+    },
+    {
+        img : 'images/Tyla.jpg',
+        name : 'Push 2 Start',
+        artist : 'Tyla',
+        music : 'music/Tyla - PUSH 2 START (Lyrics).mp3'
+    },
+    {
+        img : 'images/Gazo.jpg',
+        name : 'Nanani Nanana',
+        artist : 'Gazo',
+        music : 'music/Gazo - NANANI NANANA.mp3'
+    },
 ];
 
 loadTrack(track_index);
