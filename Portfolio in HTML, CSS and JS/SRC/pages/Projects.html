@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="icon" href="/Assets/favicons/favicon.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <style>
+        .btn-link {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .btn-link:hover {
+            background-color: #0056b3;
+        }
+
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-item {
+            margin: 20px 0;
+        }
+
+        .header .text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .header-line {
+            height: 3px;
+            background: #007BFF;
+        }
+
+        /* Gallery layout adjustments */
+        .images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-section {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <a href="../../index.html" class="logo"><span class="main-icon"></span><span>Ivan</span></a>
+
+        <div class="navbar">
+            <a href="../../index.html">Home</a>
+            <a href="./skills.html">skills</a>
+            <a href="./education.html">Education</a>
+            <a href="./Projects.html" class="active">Projects</a>
+            <a href="./career.html">Career</a>
+            <a href="./hobbies.html">Hobbies</a>
+            <a href="./testimonials.html">Testimonials</a>
+        </div>
+
+        <div class="main">
+            <a href="contact.html" class="user main-items"><i class="fas fa-envelope cm-icon"></i>Contact Me</a>
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <main class="gallery-main">
+            <div class="gallery-section">
+                <!-- Web Development Projects Section -->
+                <div class="column nepal">
+                    <div class="header">
+                        <div class="header-line"></div>
+                        <div class="text">Web Development Projects<i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="header-line right"></div>
+                    </div>
+                    <div class="images">
+                        <div class="project-item">
+                            <img src="/Assets/Projects/Online-Library-Management-System-_-1024x820.png" alt="Web Project 1">
+                            <p><strong>Online library management system</strong> - A fully functional Online library management system.</p>
+                            <a href="https://github.com/Mucyo-Ivan/Library-system-in-PHP" target="_blank" class="btn-link">GitHub Repository</a>
+                        </div>
+                        <div class="project-item">
+                            <img src="/Assets/Projects/Student-Result-Management-System-_-Dashboard-1024x442.png" alt="Web Project 2">
+                            <p><strong>Student Result Management System</strong> - A fully functional Student Result Management system.</p>
+                            <a href="https://github.com/Mucyo-Ivan/Student_result_management_system" target="_blank" class="btn-link">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column australia">
+                    <div class="header">
+                        <div class="header-line"></div>
+                        <div class="text">Software & IoT Projects <i class="fa-solid fa-microchip"></i></div>
+                        <div class="header-line right"></div>
+                    </div>
+                    <div class="images">
+                        <div class="project-item">
+                            <img src="/Assets/Projects/pipe leakage.jpeg" alt="Software Project 1">
+                            <p><strong>Pipe water leakage detection system</strong> - IOT project for pipe water leakage detection.</p>
+                            <a href="https://github.com/Mucyo-Ivan/Smarten" target="_blank" class="btn-link">GitHub Repository</a>
+                        </div>
+                        <div class="project-item">
+                            <img src="/Assets/Projects/Smart-Home.png" alt="Software Project 2">
+                            <p><strong>Smart Home System</strong> - IoT project for remote home automation.</p>
+                            <a href="https://github.com/Mucyo-Ivan/Weather-App" target="_blank" class="btn-link">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="left">
+                &copy; 2025 • MUCYO Ivan • All Rights Reserved
+            </div>
+            <div class="right">
+                <div class="social"><a href="https://www.instagram.com/ivan.mucyo" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="social"><a href="https://www.linkedin.com/in/mucyo-ivan-9a3027322/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="social"><a href="https://github.com/Mucyo-Ivan" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script type="text/javascript" src="../script/script.js"></script>
+
+</body>
+
+</html>

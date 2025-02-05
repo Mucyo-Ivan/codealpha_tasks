@@ -945,11 +945,11 @@ header.scrolled {
 }
 
 .skills-main .skills-section .skills-group-row .html .progress-block {
-	margin-left: 97%;
+	margin-left: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .html .progress-per {
-	width: 100%;
+	width: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .css .progress-block {
@@ -977,35 +977,35 @@ header.scrolled {
 }
 
 .skills-main .skills-section .skills-group-row .communication .progress-block {
-	margin-left: 97%;
+	margin-left: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .communication .progress-per {
-	width: 100%;
+	width: 95%;
 }
 
 .skills-main .skills-section .skills-group-row .team-work .progress-block {
-	margin-left: 97%;
+	margin-left: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .team-work .progress-per {
-	width: 100%;
+	width: 95%;
 }
 
 .skills-main .skills-section .skills-group-row .management .progress-block {
-	margin-left: 97%;
+	margin-left: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .management .progress-per {
-	width: 100%;
+	width: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .creativity .progress-block {
-	margin-left: 97%;
+	margin-left: 90%;
 }
 
 .skills-main .skills-section .skills-group-row .creativity .progress-per {
-	width: 100%;
+	width: 90%;
 }
 
 .education-main {
@@ -1170,7 +1170,7 @@ header.scrolled {
 }
 
 .gallery-main {
-	margin-top: 150px;
+	margin-top: 100px;
 	display: flex;
 	justify-content: center;
 	/* margin-bottom: 150px; */

@@ -111,6 +111,12 @@ const music_list = [
         artist : 'Gazo',
         music : 'music/Gazo - NANANI NANANA.mp3'
     },
+    {
+        img : 'images/Cench.jpeg',
+        name : 'GBP',
+        artist : 'Central Cee ft 21 Savage',
+        music : 'music/Central Cee - GBP (Lyrics) ft. 21 Savage.mp3'
+    },
 ];
 
 loadTrack(track_index);
